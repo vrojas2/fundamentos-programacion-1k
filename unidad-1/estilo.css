@@ -1,0 +1,24 @@
+p,li,h1 {/* Selector elemento (HTML) */
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+
+#niveles {/* Selector de identidad (id)*/
+    background-color: blueviolet;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sin-borde {/* Selector de clase*/
+    color: orange;
+    background-color: azure;
+    border: 0px;
+}
+
+#niveles:hover {/* Selector de pseudo clase*/
+    background-color: aqua;
+    color: black;
+}
+label[for]{
+    color: royalblue;
+}
