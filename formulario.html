@@ -8,22 +8,22 @@
     initial-scale=1">
     <link href="form-1.css" rel="stylesheet" type="text/css">
 </head>
-<body style="background-color: black;">
-    <form id="contacto">
-        <div>
+<body>
+    <form class="contacto">
+         <div>
+                <h2 class="titulo">Bienvenidos</h2>
+        </div>
+        <div class="contenedor-1">
             <div>
-                <h2>Bienvenidos</h2>
-            </div>
-            <div >
                 <input type="text" name="nombre"
-                placeholder="Nombre" />
+                placeholder="Nombre" class="input-100" required/>
             </div>
             <div>
                 <input type="email" name="correo"
-                placeholder="Mensaje"></textarea>
+                placeholder="Email" class="input-100" required>
             </div>
             <div>
-                <Button id="submit">Enviar</Button>
+                <input type="submit" class="boton" value="Enviar"/>
             </div>
         </div>
     </form>
